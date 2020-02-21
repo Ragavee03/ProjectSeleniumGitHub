@@ -26,12 +26,13 @@ public class Snapdeal  extends BaseClass{
 		 System.out.println(text.getText());
 		  }
 		 
-		/*
-		 * for (int i = 0; i < options.size(); i++) { WebElement text =options.get(i);
-		 * System.out.println(text.getText());
-		 * 
-		 * }
-		 */
+		
+		  for (int i = 0; i < options.size(); i++) { WebElement text =options.get(i);
+		  System.out.println(text.getText());
+		  }
+		  System.out.println(" New changes");
+		  System.out.println(" Update Program");
+		 
 		
 	}
 
