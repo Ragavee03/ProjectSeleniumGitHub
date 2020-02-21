@@ -22,18 +22,18 @@ public class Snapdeal  extends BaseClass{
 		
 		List<WebElement> options = driver.findElements(By.xpath("//p[@class='product-title']"));
 		
-		  for (WebElement text : options) {
-		 System.out.println(text.getText());
-		  }
+		/*
+		 * for (WebElement text : options) { System.out.println(text.getText()); }
+		 */
 		 
 		
 		  for (int i = 0; i < options.size(); i++) { WebElement text =options.get(i);
 		  System.out.println(text.getText());
+		  
+		  System.out.println("Creating conflict in git and try");
 		  }
-		  System.out.println(" New changes");
-		  System.out.println(" Update Program");
 		 
-		
+		System.out.println("Working on updated file");
 	}
 
 }
